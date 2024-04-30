@@ -1,7 +1,6 @@
 package calc;
 
 public class CalculatorService {
-
     private Calculator calculator;
 
     public CalculatorService(Calculator calculator) {
@@ -17,5 +16,4 @@ public class CalculatorService {
         int result = calculator.subtract(a, b);
         return "Result: " + result;
     }
-}
 }
